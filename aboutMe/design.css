@@ -1,18 +1,31 @@
 
+
 body{
-    background-color: aliceblue;
+    background-color: #038cfc;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.section{
-    background-color: aliceblue;
-    text-align: center;
+button {
+    background-color: #073e75;
+    color: white;
+
+}
+hpbbies {
+    background-color: #4b626b;
 }
 
-#ID{
-    text-align: left;
+footer{
+    display: flex;
+    justify-content: flex-center;
+    margin-top: auto;
+    flex-direction: column;
 }
 
-p{
-    text-align: center;
-}
+main {
+    margin: 0 auto;
+    /* or: align-self: center */
+    max-width: 80ch;
+  }
