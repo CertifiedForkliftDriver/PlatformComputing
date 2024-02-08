@@ -1,20 +1,26 @@
+* {
+    box-sizing: border-box;
+}
 
+header {
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border: solid;
+    text-align: center;
+}
+
+.break {
+    border-top: solid;
+    margin: 10px 10px 10px 10px;
+    
+}
 
 body{
-    background-color: #038cfc;
-    text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    background-color: wheat;
 }
 
-button {
-    background-color: #073e75;
-    color: white;
-
-}
 hpbbies {
-    background-color: #4b626b;
+    background-color: #69acc7;
 }
 
 footer{
@@ -24,8 +30,3 @@ footer{
     flex-direction: column;
 }
 
-main {
-    margin: 0 auto;
-    /* or: align-self: center */
-    max-width: 80ch;
-  }
