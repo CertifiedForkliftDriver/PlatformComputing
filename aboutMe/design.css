@@ -55,6 +55,9 @@ footer{
     margin-left: 10px;
     margin-bottom: 10px;
 }
+.right_hobby_header{
+    text-align: right;
+}
 
 .gitLink {
     border: solid black;
