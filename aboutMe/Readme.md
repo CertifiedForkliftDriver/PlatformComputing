@@ -3,7 +3,7 @@
 This is an about me page that is reflective of our css, and html that we learned
 in class and will implement into a website that looks good and presents information to the user about me.
 
-Time spent: 2 hours spent in total
+Time spent: 5 hours spent in total
 
 ## Features
 
