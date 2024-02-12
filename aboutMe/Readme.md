@@ -25,13 +25,11 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="https://imgur.com/a/JpputMc" title='website screenshots' width='' alt='Example Video Walkthrough' />
+<img src="https://imgur.com/a/JpputMc" title='website screenshots' width='' alt='Screen Shot Walkthrough' />
 
 
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to add emphasis in text
-<ul>
-  <li>**Example in bold**</li>
-  <li>*Example in italics*</li>
+<div>
   <li>Added Boxes With Borders, simple colors, and organized the bozed visually apealling</li>
-</ul>
+</div>
