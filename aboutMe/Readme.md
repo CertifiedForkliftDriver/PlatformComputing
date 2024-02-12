@@ -11,10 +11,10 @@ The following **required** features are completed:
 
 - [/] Modifies title in head so that the tab has a unique name, (e.g. About Me). (1pts)
 - [/] Uses a mix of headers, paragraphs, and div's. (3pts)
-- [ ] Includes at least 3 paragraphs. (3pts)
-- [ ] Includes at least one image. (2pts)
+- [/] Includes at least 3 paragraphs. (3pts)
+- [/] Includes at least one image. (2pts)
 - [/] Includes a .css file to style with at least 4 ways to format the elements in the html. (3pts)
-- [ ] Includes a link that directs to your Github account (can be main account or specifically to your Platform_Computing Repo). (3pts)
+- [/] Includes a link that directs to your Github account (can be main account or specifically to your Platform_Computing Repo). (3pts)
 
 The following **bonus** features are implemented:
 
@@ -25,7 +25,7 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="https://imgur.com/gallery/4rAXx5x" title='Example Video Walkthrough' width='' alt='Example Video Walkthrough' />
+<img src="https://imgur.com/a/JpputMc" title='website screenshots' width='' alt='Example Video Walkthrough' />
 
 
 ## Notes:

@@ -59,6 +59,13 @@ footer{
     text-align: right;
 }
 
+img {
+    width: 10%;
+    position: sticky;
+    border: solid;
+    align-items: left;
+}
+
 .gitLink {
     border: solid black;
     background-color: #905d95;
@@ -69,3 +76,6 @@ footer{
     font-size:x-large;
 }
 
+a {
+    color:white;
+}
