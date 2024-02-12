@@ -25,7 +25,9 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="https://imgur.com/a/JpputMc" title='website screenshots' width='' alt='Screen Shot Walkthrough' />
+<img src="https://imgur.com/vO6eQGF" title='website screenshots' width='' alt='Screen Shot Walkthrough' />
+<img src="https://imgur.com/iFJgNrR" title='website screenshots' width='' alt='Screen Shot Walkthrough' />
+<img src="https://imgur.com/UM9UBelF" title='website screenshots' width='' alt='Screen Shot Walkthrough' />
 
 
 ## Notes:
