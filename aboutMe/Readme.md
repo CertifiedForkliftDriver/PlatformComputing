@@ -33,4 +33,5 @@ PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to
 <ul>
   <li>**Example in bold**</li>
   <li>*Example in italics*</li>
+  <li>Added Boxes With Borders, simple colors, and organized the bozed visually apealling</li>
 </ul>
