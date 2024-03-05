@@ -25,7 +25,9 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<a href="https://imgur.com/a/JpputMc">Imgur Screenshot Walkthrough</a>
+<img src="pics/1.png">Imgur Screenshot Walkthrough</img>
+<img src="pics/2.png">Imgur Screenshot Walkthrough</img>
+<img src="pics/3.png">Imgur Screenshot Walkthrough</img>
 
 
 ## Notes:
