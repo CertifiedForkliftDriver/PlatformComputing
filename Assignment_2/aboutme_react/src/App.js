@@ -57,7 +57,7 @@ function App() {
           </div>  
 
         <div class="gitLink" id="githubbtn">
-            <a href="https://github.com/CertifiedForkliftDriver/PlatformComputing/tree/main/aboutMe" target="_blank">Github Link</a>
+            <a class="git_link"href="https://github.com/CertifiedForkliftDriver/PlatformComputing" target="_blank">Github Link</a>
         </div>
 
         <footer>

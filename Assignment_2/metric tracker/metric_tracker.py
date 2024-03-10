@@ -13,7 +13,8 @@ num_clicks = 0
 # Track presence time 
 start_time = time.time()
 presence_time = start_time
-while presence_time != 30: # seconds
+while int(presence_time) != 10: # seconds
+    #track time
     current_time = time.time()
     presence_time = current_time - start_time
     print(f"Presence time: {presence_time} seconds")
@@ -25,16 +26,15 @@ while presence_time != 30: # seconds
     
     time.sleep(2) 
 
-    # Track clicks   
-    buttons = []
-    buttons.append(driver.find_element(By.CLASS_NAME, "gitLink"))
+    #title 
+    title = driver.title
+    print(title)
 
-    for button in buttons:
-        if button.is_selected():
-            num_clicks += 1
-
-        
-    print(f"Number of clicks: {num_clicks}")
-
-        
+    #github link
+    button = driver.find_element(By.CLASS_NAME, value="git_link")
+    
+    
+#takes us to my github link
+button.click()
+print("Opened GIthub!")
 driver.quit()
