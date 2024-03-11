@@ -23,8 +23,8 @@ The following **bonus** features are implemented:
 ## Screenshot and/or Video Walkthrough
 
 
-<img  src="Assignment_2/images/aboutmeOnReact.png" alt="">
-<img  src="Assignment_2/images/metric_tracker_output.png" alt="">
-<img  src="Assignment_2/images/selenium_tutoria_output.png" alt="">
+<img  src="./Assignment_2/images/aboutmeOnReact.png" alt="">
+<img  src="./Assignment_2/images/metric_tracker_output.png" alt="">
+<img  src="./Assignment_2/images/selenium_tutoria_output.png" alt="">
 
 
