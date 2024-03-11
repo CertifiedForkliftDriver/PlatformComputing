@@ -2,7 +2,7 @@
 
 PROVIDE OVERVIEW OF ASSIGNMENT HERE
 
-Time spent: **NUMBER_HOURS_SPENT** hours spent in total
+Time spent: 4-5 hours 
 
 ## Features
 
@@ -23,8 +23,8 @@ The following **bonus** features are implemented:
 ## Screenshot and/or Video Walkthrough
 
 
-<img src="images/aboutmeOnReact.png" alt="">
-<img src="images/metric_tracker_output.png" alt="">
-<img src="images/selenium_tutoria_output.png" alt="">
+<img src="images/aboutmeOnReact.png" alt="About Me On React">
+<img src="images/metric_tracker_output.png" alt="Metric Tracker Output">
+<img src="images/selenium_tutoria_output.png" alt="Selenium Tutorial">
 
 
