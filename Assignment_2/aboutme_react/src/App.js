@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import rave from './rave.jpg';
+import './firabase.js'
 
 function App() {
   return (
