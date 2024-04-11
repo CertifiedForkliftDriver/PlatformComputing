@@ -25,8 +25,8 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="/images/UniqueWith.png" alt='UniqueWith'/>
-<img src="/images/WithoutLink.png" alt='WithoutLink'/>
+<img src="images/UniqueWith.png" alt='UniqueWith'/>
+<img src="images/WithoutLink.png" alt='WithoutLink'/>
 
 
 
