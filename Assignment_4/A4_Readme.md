@@ -19,9 +19,10 @@ The following **required** features are completed:
 - [X] Create a user with unique affinities and verify that it works (3 pts)
 The following **bonus** features are implemented:
 
-- [ ] Create a unique user with an affinity OUTSIDE of keywords, images, or links (1.5 pt)
+- [X] Create a unique user with an affinity OUTSIDE of keywords, images, or links (1.5 pt)
 - [ ] Uploaded files for a unique user BOTH in javascript and python (1.5 pt)
-- [ ] DESCRIBE ANY OTHER FEATURES HERE.
+- [X] I added a feautre to check if the user is at the bottom of the screen and if the user is
+    in that general area of the screen it ups the end time by 10 seconds.
 
 ## Screenshot and/or Video Walkthrough
 

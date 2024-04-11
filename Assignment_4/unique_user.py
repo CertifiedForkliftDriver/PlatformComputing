@@ -26,7 +26,12 @@ while int(presence_time) != end_time: # seconds
     print(f"Presence time: {presence_time} seconds")
     print(f"End time: {end_time} seconds")
     time.sleep(10) 
+    scroll_height = driver.execute_script("return document.body.scrollHeight")  
+    current_scroll = driver.execute_script("return window.pageYOffset")
+    print(f"Scrolled {current_scroll}/{scroll_height} pixels")
 
+    if current_scroll > 500:
+        end_time = end_time + 10
  
     try:
         images = driver.find_elements(By.TAG_NAME, 'img')
