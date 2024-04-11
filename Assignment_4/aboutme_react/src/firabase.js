@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getDatabase, ref, set, child, push, update } from "firebase/database"
-import csvData from './metrics.csv';
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyBFY06C-XKczoueFfzDjUgREzX2cj406ww",
