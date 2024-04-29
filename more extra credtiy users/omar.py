@@ -1,3 +1,7 @@
+
+# //check for the word "pet" on the page
+# //check for images on the page
+# //check for links on the page
 import time
 import csv
 from selenium import webdriver
@@ -17,25 +21,38 @@ presence_time = start_time
 end_time = 10
 check = False
 imageBool = False
+linkchecker = False
 while int(presence_time) != end_time: # seconds
     #track time
     current_time = time.time()
     presence_time = current_time - start_time
     print(f"Presence time: {presence_time} seconds")
     print(f"End time: {end_time} seconds")
-    time.sleep(5) 
+    time.sleep(2) 
  
     try:
         divs = driver.find_elements(By.TAG_NAME, 'img')
 
         if imageBool == False:
-            print(f"Image Count: {len(divs)}")
+            print(f"Img count: {len(divs)}")
             if len(divs) == 1:
                 end_time = end_time + end_time
             end_time = end_time * len(divs)
             imageBool = True
     except NoSuchElementException:
-        print("No Images")
+        print("Divs not found")
+
+    try:
+        links = driver.find_elements(By.TAG_NAME, 'a')
+
+        if linkchecker == False:
+            print(f"Link count: {len(links)}")
+            if len(links) == 1:
+                end_time = end_time + end_time
+            end_time = end_time * len(links)
+            linkchecker = True
+    except NoSuchElementException:
+        print("links not found")
 
     try:
         
@@ -45,10 +62,11 @@ while int(presence_time) != end_time: # seconds
             for e in paragraphs:
                 par = e.text
                 for i in par:
-                    if (i == "nature"):
+                    if (i == "pet"):
                         count = count + 1
                         end_time = end_time + 10
-                        check = True          
+                        check = True
+            print(f"There is {count} I's")              
     
             
         # if imageBool == False:

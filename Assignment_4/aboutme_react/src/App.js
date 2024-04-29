@@ -23,7 +23,8 @@ function App() {
                     this genre of music. I love hearing the music at a live event,
                     with all the lights and all the people, its magical and something
                     i recommend for people who want to try it out. My brother was a big influence for my
-                    music taste, he also really liked dubstep and we always listen to Daft Punk, a french EDM duo.
+                    music taste, he also really liked dubstep and we always listen to Daft Punk, a french EDM duo. He showed me a software called
+                    Serum on FL Studio and i fell in love with dubstep.
                 </p>
             </div>
           <div class="left_hobby">
