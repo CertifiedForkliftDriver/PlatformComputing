@@ -16,7 +16,7 @@ class UniqueUser:
             return False
 
     def count_images(self, tag_names):
-        count = 1
+        count = 0
         for tag_name in tag_names:
             count += len(self.driver.find_elements(By.TAG_NAME, tag_name))
         return count

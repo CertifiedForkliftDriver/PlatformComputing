@@ -16,15 +16,14 @@ function App() {
         </div>
             <div class="right_hobby">
                 <h2 class="right_hobby_header">EDM Music</h2>
-                <p>I remember playing games on my computer
+                <p> pet I remember playing games on my computer
                     and pulling up some music playlist to "lock in".
                     These playlist were mostly EDM music like dubstep or,
                     house music, so naturally i gained an appreciation towards
                     this genre of music. I love hearing the music at a live event,
                     with all the lights and all the people, its magical and something
                     i recommend for people who want to try it out. My brother was a big influence for my
-                    music taste, he also really liked dubstep and we always listen to Daft Punk, a french EDM duo. He showed me a software called
-                    Serum on FL Studio and i fell in love with dubstep.
+                    music taste, he also really liked dubstep and we always listen to Daft Punk, a french EDM duo. 
                 </p>
             </div>
           <div class="left_hobby">
@@ -54,7 +53,7 @@ function App() {
                   I also want to be fit and healthy for my kids and my grandkids so going 
                   to the gym regularly for the rest of my life is one of my goals. There are other things
                   that correlate with the gym like the sauna, steam room, and cold plunges, which are all
-                  really good for not only your physical health but your mental health as well.
+                  really good for not only your physical health but your mental health as well. 
               </p>
           </div>  
 

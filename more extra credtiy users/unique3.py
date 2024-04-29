@@ -22,13 +22,13 @@ end_time = 10
 check = False
 imageBool = False
 linkchecker = False
-while int(presence_time) != end_time: # seconds
+while int(presence_time) != int(end_time): # seconds
     #track time
     current_time = time.time()
     presence_time = current_time - start_time
     print(f"Presence time: {presence_time} seconds")
     print(f"End time: {end_time} seconds")
-    time.sleep(2) 
+    time.sleep(10) 
  
     try:
         divs = driver.find_elements(By.TAG_NAME, 'img')
@@ -40,7 +40,7 @@ while int(presence_time) != end_time: # seconds
             end_time = end_time * len(divs)
             imageBool = True
     except NoSuchElementException:
-        print("Divs not found")
+        print("imges not found")
 
     try:
         links = driver.find_elements(By.TAG_NAME, 'a')
@@ -62,11 +62,11 @@ while int(presence_time) != end_time: # seconds
             for e in paragraphs:
                 par = e.text
                 for i in par:
-                    if (i == "pet"):
+                    if (i == "."):
                         count = count + 1
                         end_time = end_time + 10
                         check = True
-            print(f"There is {count} I's")              
+            print(f"There is {count} periods's")              
     
             
         # if imageBool == False:
